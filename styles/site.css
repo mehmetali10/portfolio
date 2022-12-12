@@ -1,26 +1,63 @@
 body{
-    background-color: rgb(217, 224, 230);
+    background-color: rgb(185, 184, 184);
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 650;
 }
 
 #square{
     width: 72rem;
     height: 92rem;
-    background-color: gray;
+    background-color: whitesmoke;
     margin: 3rem auto;
     border-radius: 16px;
 }
 
 #head-part{
-padding: 16px;
+padding: 32px;
 padding-left: 38px;
+}
+
+#head-part i{
+    color: rgb(68, 67, 67);
+    padding-right: 6px;
 }
 
 .leftbar{
     height: 92rem;
-    padding: 16px;
-padding-left: 38px;
+    padding: 32px;
+    padding-left: 38px;
 }
 
-#content-part{
+.left-icons {
+    padding-left: 3px;
+    padding-top: 138px;
+}
 
+.left-icons .fa-brands{
+    color: gray;
+    font-size: 1.5rem;
+    padding-top: 16px;
+}
+
+.my-icon{
+    padding-bottom: 13rem;
+}
+
+#first-page{
+    margin-top: 150px;
+    margin-left: 60px;
+    margin-right: auto;
+}
+
+#first-page h2{
+    margin-top: 16px;
+    color: gray;
+    font-size: 1.5;
+    font-weight: 900;
+}
+
+#first-page img {
+    margin-left: 40px;
+    width: 300px;
+    height: 300px;
 }
