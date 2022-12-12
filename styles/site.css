@@ -1,6 +1,9 @@
+body{
+    background-color: rgb(217, 224, 230);
+}
 
 #square{
-    width: 52rem;
+    width: 72rem;
     height: 92rem;
     background-color: gray;
     margin: 3rem auto;
@@ -8,7 +11,14 @@
 }
 
 #head-part{
+padding: 16px;
+padding-left: 38px;
+}
 
+.leftbar{
+    height: 92rem;
+    padding: 16px;
+padding-left: 38px;
 }
 
 #content-part{
