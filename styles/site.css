@@ -2,11 +2,12 @@ body{
     background-color: rgb(185, 184, 184);
     font-family: 'Noto Sans', sans-serif;
     font-weight: 650;
+    color: rgb(68, 67, 67);
 }
 
 #square{
     width: 72rem;
-    height: 92rem;
+    height: 142rem;
     background-color: whitesmoke;
     margin: 3rem auto;
     border-radius: 16px;
@@ -18,7 +19,6 @@ padding-left: 38px;
 }
 
 #head-part i{
-    color: rgb(68, 67, 67);
     padding-right: 6px;
 }
 
@@ -29,12 +29,12 @@ padding-left: 38px;
 }
 
 .left-icons {
+    position: fixed;
     padding-left: 3px;
     padding-top: 138px;
 }
 
 .left-icons .fa-brands{
-    color: gray;
     font-size: 1.5rem;
     padding-top: 16px;
 }
@@ -60,4 +60,39 @@ padding-left: 38px;
     margin-left: 40px;
     width: 300px;
     height: 300px;
+}
+
+
+/*   Tech parts   */
+
+#techs{
+    margin-top: 240px;
+}
+
+#techs hr{
+    width: 150px;
+    border: dotted 5px;
+    border-bottom: 0px;
+    border-color: rgb(235, 63, 0);
+    margin-bottom:44px;
+    margin-top: 22px;
+}
+
+#techs h2{
+    font-weight: 800;
+}
+
+#techs .col-lg-10{
+    margin-bottom: 50px;
+    border-radius: 16px;
+    width: 57rem;
+    height: 12rem;
+    background-color:rgb(185, 184, 184);
+}
+
+#techs p{
+    font-size: 18px;
+    margin-top: 18px;
+    margin-left: 18px;
+    font-family: 'Barlow Condensed', sans-serif;
 }
