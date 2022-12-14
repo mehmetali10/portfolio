@@ -1,8 +1,12 @@
 body{
-    background-color: rgb(185, 184, 184);
+    background-color: rgb(220, 219, 219);
     font-family: 'Noto Sans', sans-serif;
     font-weight: 650;
     color: rgb(68, 67, 67);
+}
+
+a{
+    text-decoration: none;
 }
 
 #square{
@@ -13,6 +17,7 @@ body{
     border-radius: 16px;
 }
 
+/* Head part */
 #head-part{
 padding: 32px;
 padding-left: 38px;
@@ -21,6 +26,8 @@ padding-left: 38px;
 #head-part i{
     padding-right: 6px;
 }
+
+/*leftbar */
 
 .leftbar{
     height: 92rem;
@@ -42,6 +49,8 @@ padding-left: 38px;
 .my-icon{
     padding-bottom: 13rem;
 }
+
+/*first content part*/
 
 #first-page{
     margin-top: 150px;
@@ -84,10 +93,10 @@ padding-left: 38px;
 
 #techs .col-lg-10{
     margin-bottom: 50px;
-    border-radius: 16px;
+    border-radius: 2px;
     width: 57rem;
     height: 12rem;
-    background-color:rgb(185, 184, 184);
+    background-color: rgb(220, 219, 219);
 }
 
 #techs p{
@@ -96,3 +105,46 @@ padding-left: 38px;
     margin-left: 18px;
     font-family: 'Barlow Condensed', sans-serif;
 }
+
+/*tech frontend*/
+.imgs{
+    display: inline-block;
+    width: 10%;
+    padding: 10px;
+    margin-left: 30px;
+    filter: grayscale(80%);
+}
+.html img{
+    width: 50px;
+    height: 50px;
+}
+.css img{
+    width: 50px;
+    height: 55px;
+}
+.bootstrap img{
+    width: 52px;
+    height: 43px;
+}
+.js img{
+    width: 50px;
+    height: 50px;
+}
+.jquery img{
+    width: 50px;
+    height: 50px;
+}
+.react img{
+    width: 60px;
+    height: 50px;
+}
+.flutter img{
+    width: 50px;
+    height: 47px;
+}
+
+/*tech backend*/
+
+
+
+
