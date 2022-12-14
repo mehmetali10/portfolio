@@ -93,7 +93,6 @@ padding-left: 38px;
 
 #techs .col-lg-10{
     margin-bottom: 50px;
-    border-radius: 2px;
     width: 57rem;
     height: 12rem;
     background-color: rgb(220, 219, 219);
@@ -106,44 +105,34 @@ padding-left: 38px;
     font-family: 'Barlow Condensed', sans-serif;
 }
 
-/*tech frontend*/
 .imgs{
     display: inline-block;
-    width: 10%;
+    width: 5%;
     padding: 10px;
     margin-left: 30px;
     filter: grayscale(80%);
 }
-.html img{
+
+/*tech frontend*/
+.front-end-images img{
+    margin-top: 22px;
+    margin-left: 55px;
     width: 50px;
     height: 50px;
-}
-.css img{
-    width: 50px;
-    height: 55px;
 }
 .bootstrap img{
-    width: 52px;
-    height: 43px;
-}
-.js img{
     width: 50px;
-    height: 50px;
-}
-.jquery img{
-    width: 50px;
-    height: 50px;
-}
-.react img{
-    width: 60px;
-    height: 50px;
-}
-.flutter img{
-    width: 50px;
-    height: 47px;
+    height: 42px;
 }
 
 /*tech backend*/
+.backend-images img{
+    margin-top: 22px;
+    margin-left: 55px;
+    width: 50px;
+    height: 50px;
+}
+
 
 
 
