@@ -7,6 +7,7 @@ body{
 
 a{
     text-decoration: none;
+    color:rgb(68, 67, 67);
 }
 
 #square{
@@ -104,34 +105,27 @@ padding-left: 38px;
     margin-left: 18px;
     font-family: 'Barlow Condensed', sans-serif;
 }
+#techs img{
+    margin-top: 22px;
+    margin-left: 55px;
+    width: 50px;
+    height: 50px;
+}
 
 .imgs{
     display: inline-block;
     width: 5%;
     padding: 10px;
     margin-left: 30px;
-    filter: grayscale(80%);
+    filter: grayscale(0%);
 }
 
-/*tech frontend*/
-.front-end-images img{
-    margin-top: 22px;
-    margin-left: 55px;
-    width: 50px;
-    height: 50px;
-}
+
 .bootstrap img{
     width: 50px;
     height: 42px;
 }
 
-/*tech backend*/
-.backend-images img{
-    margin-top: 22px;
-    margin-left: 55px;
-    width: 50px;
-    height: 50px;
-}
 
 
 
