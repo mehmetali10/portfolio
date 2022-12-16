@@ -10,9 +10,17 @@ a{
     color:rgb(68, 67, 67);
 }
 
+hr{
+    width: 22rem;
+    background: gray;
+    top: 10px;
+    height: 3px;
+    border-style: none;
+}
+
 #square{
     width: 72rem;
-    height: 142rem;
+    height: 200rem;
     background-color: whitesmoke;
     margin: 3rem auto;
     border-radius: 16px;
@@ -79,15 +87,6 @@ padding-left: 38px;
     margin-top: 240px;
 }
 
-#techs hr{
-    width: 150px;
-    border: dotted 5px;
-    border-bottom: 0px;
-    border-color: rgb(235, 63, 0);
-    margin-bottom:44px;
-    margin-top: 22px;
-}
-
 #techs h2{
     font-weight: 800;
 }
@@ -100,15 +99,16 @@ padding-left: 38px;
 }
 
 #techs p{
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 18px;
     margin-left: 18px;
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
 }
+
 #techs img{
     margin-top: 22px;
     margin-left: 55px;
-    width: 50px;
+    width: 55px;
     height: 50px;
 }
 
@@ -117,7 +117,7 @@ padding-left: 38px;
     width: 5%;
     padding: 10px;
     margin-left: 30px;
-    filter: grayscale(0%);
+    filter: grayscale(99%);
 }
 
 
@@ -125,6 +125,30 @@ padding-left: 38px;
     width: 50px;
     height: 42px;
 }
+
+/*Experience part*/
+
+#experience{
+    margin-top:6rem;
+}
+
+#experience .col-lg-10{
+    width: 40rem;
+    height: 10rem;
+    background-color: rgb(220, 219, 219);
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 33px;
+}
+
+#experience h2{
+    font-weight: 800;
+}
+
+#experience  h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 
 
 
