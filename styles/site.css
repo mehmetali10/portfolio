@@ -20,7 +20,7 @@ hr{
 
 #square{
     width: 72rem;
-    height: 200rem;
+    height: 300rem;
     background-color: whitesmoke;
     margin: 3rem auto;
     border-radius: 16px;
@@ -69,9 +69,22 @@ padding-left: 38px;
 
 #first-page h2{
     margin-top: 16px;
-    color: gray;
-    font-size: 1.5;
+    color: rgb(108, 108, 108);
+    font-size: 50px;
     font-weight: 900;
+}
+
+#first-page h4{
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(108, 108, 108);
+
+}
+
+#first-page p{
+    font-size: 19px;
+    color: rgb(108, 108, 108);
+    font-weight: 500;   
 }
 
 #first-page img {
@@ -133,7 +146,7 @@ padding-left: 38px;
 }
 
 #experience .col-lg-10{
-    width: 40rem;
+    width: 55rem;
     height: 10rem;
     background-color: rgb(220, 219, 219);
     margin-bottom: 20px;
@@ -150,7 +163,47 @@ padding-left: 38px;
 }
 
 
+/*projects part*/
 
+#projects{
+    margin-top: 150px;
+}
+#projects h2{
+    font-weight: 800;
+}
+
+#projects h4{
+    font-weight: 600;
+}   
+
+#projects .row{
+    margin-top: 4rem;
+}
+
+.card{
+    margin: auto;
+    padding: 12px;
+    filter: grayscale(0%);
+    border-radius: 44px;
+}
+
+.card-title {
+    font-weight:900;
+}
+
+.card-text {
+    font-weight: 500;
+}
+
+.card-img-top{
+    width:22rem;
+    height:12rem;
+}
+
+.try{
+    margin-left: 42px;
+    margin-bottom: 42px;
+}
 
 
 
