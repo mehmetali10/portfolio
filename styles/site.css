@@ -115,6 +115,7 @@ hr{
     width: 57rem;
     height: 12rem;
     background-color: rgb(220, 219, 219);
+    border-radius: 4px;
 }
 
 #techs p{
@@ -193,7 +194,7 @@ hr{
 /*Experience part*/
 
 #experience{
-    margin-top:9rem;
+    margin-top:120px;
     margin-bottom: 6rem;
 }
 
@@ -221,24 +222,82 @@ hr{
 }
 
 #footer-1 h4{
-    margin-left: 37%;
-    font-weight: 500;
+    margin-left: 36%;
+    font-weight: 600;
     line-height: 1.5;
+    font-size: 1.3rem;
 }
 
 #footer-1 h5{
-    margin-left: 38%;
+    margin-left: 36.5%;
     line-height: 1.5;
-    font-weight: 400;
-}
-
-.footer-icons{
+    font-weight: 500;
     font-size: 1.2rem;
 }
 
+.footer-icons{
+    font-size: 1.3rem;
+    margin-left: 29%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 .footer-icons .fa-brands{
-    padding-left: 10px;
-    margin-left: 35%;
+    padding-left: 39px;
+}
+
+/*footer-2 part*/
+
+#footer-2{
+    margin-bottom: 50px;
+    margin-top: 90px;
+}
+
+.copyright1{
+text-align: center;
+}
+
+.footer-start{
+    margin-bottom: 20px;
+}
+
+.footer-end{
+}
+
+.footer-end .col-lg-2{
+    text-align: center;
+    height: 10px;
+    width: 270px;
+    border-radius: 1px;
+}
+
+.fe1{
+    background-color: #e16969;
+}
+
+.fe2{
+    background-color: #DE8B26;
+}
+
+.fe3{
+    background-color: #90a1a8;
+}
+
+.fe4{
+    background-color: #7d75e7;
+}
+
+.col-lg-4 p{
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.copyright h5{
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
 }
 
 

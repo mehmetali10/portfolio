@@ -4,9 +4,9 @@
 
     #square{
         padding: 16px;
-        width: 100%;
+        width: 97%;
         height: 100%;
-        margin-top: 0px;
+        margin-top: 10px;
     }
 
     hr{
@@ -42,11 +42,12 @@
     }
 
     #first-page img {
-        margin-top: 40px;
+        margin-left: 30px;
+        margin-top: 30px;
         width: 300px;
         height: 300px;
         border-radius: 100px;
-        filter: grayscale(89%);
+        filter: grayscale(29%);
     }
 
     #first-page h2{
@@ -117,4 +118,22 @@
         margin: 12px auto px;
         border-radius: 16px;
     }
+
+
+    /*footer-1 part*/
+    #footer-1{
+        margin-top: 120px;
+    }
+    
+    .footer-icons{
+        margin-left: 22%;
+        margin-top: 38px;
+    }
+
+    .footer-icons .fa-brands{
+        padding-left: 40px;
+    }
+
+    
+    
 }
