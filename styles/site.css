@@ -77,14 +77,14 @@ hr{
 /*first content part*/
 
 #first-page{
-    margin-top: 150px;
+    margin-top: 120px;
     margin-left: 60px;
     margin-right: auto;
 }
 
 .ns-title{
     height: 130px;
-    margin-top: 16px;
+    margin-top: 56px;
     color: rgb(86, 86, 86);
     font-size: 50px;
     font-weight: 800;
@@ -92,7 +92,7 @@ hr{
 
 .ns-title-out{
     height: 130px;
-    margin-top: 16px;
+    margin-top: 56px;
     color:#703434;
     font-size: 53px;
     font-weight: 900;
@@ -112,26 +112,17 @@ hr{
     color: #703434;
 }
 
-.ns-content {
-    color: rgb(37, 151, 96);
-    font-size: 42px;
-}
-
-.ns-content-out{
-
-}
-
 #first-page p{
     font-size: 19px;
-    color: rgb(108, 108, 108);
+    color: rgb(33, 33, 33);
     font-weight: 500;   
 }
 
 #first-page img {
-    margin-left: 80px;
-    width: 300px;
-    height: 300px;
-    border-radius: 33px;
+    margin-left: 0px;
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
 }
 
 
@@ -193,10 +184,14 @@ hr{
 /*projects part*/
 
 #projects{
-    margin-top: 150px;
+    margin-top: 110px;
 }
 #projects h2{
     font-weight: 800;
+}
+
+.project-title :hover{
+    color:#703434;
 }
 
 #projects h4{
@@ -204,17 +199,27 @@ hr{
 }   
 
 #projects .row{
-    margin-top: 4rem;
+    margin-top: 2rem;
 }
 
 .card{
+    width: 24rem;
     margin: auto;
     padding: 12px;
     border-radius: 44px;
 }
 
 .card-title {
+    height: 22px;
     font-weight:900;
+    padding-bottom: 25px;
+}
+
+.card-title :hover{
+    font-weight: 1000;
+    color: #703434;
+    font-size: 25px;
+    
 }
 
 .card-text {
@@ -224,6 +229,11 @@ hr{
 .card-img-top{
     width:22rem;
     height:12rem;
+}
+
+.card-img-top :hover{
+    width: 83rem;
+    height: 12.5rem;
 }
 
 .try{
@@ -257,8 +267,15 @@ hr{
     font-weight: 800;
 }
 
-#experience  h4{
+.experience-h4{
+    height: 34px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.experience-h4 :hover{
+    height: 34px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #703434;
+    font-size: 30px;
 }
 
 /*footer-1 part*/
@@ -287,9 +304,14 @@ hr{
     margin-bottom: 30px;
 }
 
+.footer-icons :hover{
+    color: #703434;
+}
+
 .footer-icons .fa-brands{
     padding-left: 39px;
 }
+
 
 /*footer-2 part*/
 
@@ -305,8 +327,6 @@ text-align: center;
     margin-bottom: 20px;
 }
 
-.footer-end{
-}
 
 .footer-end .col-lg-2{
     text-align: center;

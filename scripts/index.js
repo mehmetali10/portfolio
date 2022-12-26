@@ -24,7 +24,7 @@ ns.innerHTML= `<h2 class="ns-title">Mehmet Ali <br>
 <hr>
 `;
 nsJob.innerHTML = '<h4 class="ns-job">Software Engineer</h4>';
-nsContent.innerHTML = '<p class="ns-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste autem nobis ex sed nesciunt velit consequatur suscipit, quibusdam eveniet rem!</p>'
+nsContent.innerHTML = '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste autem nobis ex sed nesciunt velit consequatur suscipit, quibusdam eveniet rem!</p>'
 
 setTimeout(() => {
     nameSurname.append(ns);
