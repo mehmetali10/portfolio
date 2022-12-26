@@ -100,3 +100,34 @@ for(var i=0; i< timgsNumbers; i++){
 }
 
 
+
+/**
+ * <i class="fa fa-moon-o" aria-hidden="true"></i>
+ * <i class="fa fa-sun-o" aria-hidden="true"></i>
+ */
+
+const icon = document.querySelector(".fa-moon-o");
+icon.addEventListener("click", function(){
+
+  //square
+  const main = document.querySelector("#main");
+  main.childNodes[1].classList.toggle("dark-square");
+
+  //tech-exp-project
+  const techBodies = document.querySelectorAll(".tech-body");
+  const expBodies = document.querySelectorAll(".exp-body");
+  const cardBodies = document.querySelectorAll(".card");
+  for(var i=0; i<cardBodies.length; i++){
+    if(i<3){
+      techBodies[i].classList.toggle("dark-body");
+    }
+    if(i < 2){
+      expBodies[i].classList.toggle("dark-body");
+    }
+    cardBodies[i].classList.toggle("dark-card-body");
+  }
+
+  //body
+  document.body.classList.toggle("dark-body");
+
+});

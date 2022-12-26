@@ -19,15 +19,27 @@ hr{
     border-style: none;
 }
 
+
+/*square*/
+
 #square{
     width: 72rem;
     height: 300rem;
     height: 100%;
-    background-color: white;
     margin: 3rem auto;
     border-radius: 16px;
-    box-shadow: 12px 12px 12px 12px rgb(178, 176, 176); 
 }
+
+.square{
+    background-color: white;
+}
+
+.dark-square {
+    background-color: rgba(10, 12, 16, 0.975);
+    color: rgb(107, 106, 106);
+}
+
+
 
 
 /*leftbar */
@@ -59,6 +71,7 @@ hr{
 
 /* Head part */
 #head-part{
+    font-size: 19px;
     padding: 32px;
     padding-left: 38px;
     height: 22px;
@@ -69,7 +82,7 @@ hr{
 }
 
 .head-links :hover{
-    font-size: 19px;
+    font-size: 20px;
     color:#703434;
 }
 
@@ -114,7 +127,7 @@ hr{
 
 #first-page p{
     font-size: 19px;
-    color: rgb(33, 33, 33);
+    color: rgb(86, 86, 86);
     font-weight: 500;   
 }
 
@@ -142,9 +155,11 @@ hr{
     margin-bottom: 50px;
     width: 57rem;
     height: 12rem;
-    background-color: rgb(220, 219, 219);
     border-radius: 4px;
 }
+
+
+
 
 #techs p{
     font-size: 16px;
@@ -256,7 +271,6 @@ hr{
 #experience .col-lg-10{
     width: 55rem;
     height: 10rem;
-    background-color: rgb(220, 219, 219);
     margin-bottom: 30px;
     text-align: center;
     padding-top: 33px;
@@ -364,4 +378,25 @@ text-align: center;
     text-align: center;
 }
 
+.f2links :hover{
+    color:#703434;
+}
+
+
+/*dark thema*/
+.light-body{
+    background-color: rgb(220, 219, 219);
+}
+.light-card-body{
+    background-color: white;
+}
+
+
+.dark-body{
+    background-color: rgba(22, 26, 33, 0.975);
+}
+
+.dark-card-body{
+    background-color: rgba(30, 35, 42, 0.975);
+}
 
