@@ -48,6 +48,11 @@ hr{
     padding-top: 16px;
 }
 
+.left-icons :hover{
+    font-size: 2rem;
+    color:#703434;
+}
+
 .my-icon{
     padding-bottom: 13rem;
 }
@@ -56,11 +61,18 @@ hr{
 #head-part{
     padding: 32px;
     padding-left: 38px;
+    height: 22px;
 }
     
 #head-part i{
     padding-right: 6px;
 }
+
+.head-links :hover{
+    font-size: 19px;
+    color:#703434;
+}
+
 
 /*first content part*/
 
@@ -70,17 +82,42 @@ hr{
     margin-right: auto;
 }
 
-#first-page h2{
+.ns-title{
+    height: 130px;
     margin-top: 16px;
-    color: rgb(108, 108, 108);
+    color: rgb(86, 86, 86);
     font-size: 50px;
+    font-weight: 800;
+}
+
+.ns-title-out{
+    height: 130px;
+    margin-top: 16px;
+    color:#703434;
+    font-size: 53px;
     font-weight: 900;
 }
 
-#first-page h4{
+.ns-job{
+    height: 36px;
     font-size: 24px;
     font-weight: 600;
-    color: rgb(108, 108, 108);
+    color: rgb(86, 86, 86);
+}
+
+.ns-job-out{
+    height: 36px;
+    font-size: 28px;
+    font-weight: 600;
+    color: #703434;
+}
+
+.ns-content {
+    color: rgb(37, 151, 96);
+    font-size: 42px;
+}
+
+.ns-content-out{
 
 }
 
@@ -94,7 +131,6 @@ hr{
     margin-left: 80px;
     width: 300px;
     height: 300px;
-    filter: grayscale(69%);
     border-radius: 33px;
 }
 
@@ -126,21 +162,30 @@ hr{
     font-family: 'Noto Sans', sans-serif;
 }
 
-#techs img{
-    margin-top: 10px;
-    margin-bottom: 12px;
-    margin-left: 0px;
-    width: 50px;
-    height: 45px;
-}
-
 .imgs{
     display: inline-block;
     width: 5%;
     padding: 10px;
     margin-left: 30px;
-    filter: grayscale(59%);
 }
+
+
+.timg{
+    margin-top: 10px;
+    margin-bottom: 12px;
+    width: 50px;
+    height: 45px;
+    filter: grayscale(90%);
+}
+
+.timg2{
+    margin-top: 10px;
+    margin-bottom: 12px;
+    width: 50px;
+    height: 45px;
+    filter: grayscale(0%);
+}
+
 
 
 
@@ -195,8 +240,7 @@ hr{
 /*Experience part*/
 
 #experience{
-    margin-top:120px;
-    margin-bottom: 6rem;
+    margin-top:7rem;
 }
 
 #experience .col-lg-10{
@@ -219,7 +263,7 @@ hr{
 
 /*footer-1 part*/
 #footer-1{
-    margin-top: 9rem;
+    margin-top: 7rem;
 }
 
 #footer-1 h4{
@@ -251,7 +295,6 @@ hr{
 
 #footer-2{
     margin-bottom: 50px;
-    margin-top: 90px;
 }
 
 .copyright1{
