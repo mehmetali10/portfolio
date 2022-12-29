@@ -131,3 +131,11 @@ icon.addEventListener("click", function(){
   document.body.classList.toggle("dark-body");
 
 });
+
+icon.addEventListener("mouseover", function(){
+  icon.classList.add("moon-icon")
+});
+
+icon.addEventListener("mouseout", function(){
+  icon.classList.remove("moon-icon");
+});
