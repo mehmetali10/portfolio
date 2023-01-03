@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: rgb(220, 219, 219);
     font-family: 'Noto Sans', sans-serif;
