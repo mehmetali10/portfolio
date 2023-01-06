@@ -125,7 +125,7 @@
     /*projects part*/
     .card{
         margin: auto;
-        margin-bottom: 32px;
+        margin-bottom: 90px;
         padding: 12px;
         border-radius: 22px;
     }
@@ -134,7 +134,7 @@
     }
     .try{
         margin-left: 0;
-        margin-bottom: 0;
+        margin-bottom: 0px;
     }
     .card-img-top{
         width:22rem;

@@ -90,6 +90,7 @@ hr{
     color:#703434;
 }
 
+
 .fa-moon-o{
     font-size: 1.3rem;
 }
@@ -104,24 +105,22 @@ hr{
 /*first content part*/
 
 #first-page{
-    margin-top: 120px;
-    margin-left: 60px;
-    margin-right: auto;
+    margin: 120px auto 0;
 }
 
 .ns-title{
-    height: 130px;
+    font-family: 'Roboto Mono', monospace;
     margin-top: 56px;
     color: rgb(86, 86, 86);
-    font-size: 50px;
+    font-size: 42px;
     font-weight: 800;
 }
 
 .ns-title-out{
-    height: 130px;
+    font-family: 'Roboto Mono', monospace;
     margin-top: 56px;
     color:#703434;
-    font-size: 50px;
+    font-size: 42px;
     font-weight: 900;
 }
 
@@ -140,9 +139,10 @@ hr{
 }
 
 #first-page p{
-    font-size: 19px;
+    font-size: 14px;
     color: rgb(86, 86, 86);
-    font-weight: 500;   
+    font-weight: 300;  
+    font-family: 'Roboto Mono', monospace;
 }
 
 #first-page img {
@@ -228,7 +228,7 @@ hr{
 }   
 
 #projects .row{
-    margin-top: 2rem;
+    margin-top: 5rem;
 }
 
 .card{
@@ -252,7 +252,9 @@ hr{
 }
 
 .card-text {
-    font-weight: 500;
+    font-weight: 100;
+    counter-reset: rgb(192, 189, 189);
+    font-family: 'Mulish', sans-serif;
 }
 
 .card-img-top{
@@ -266,8 +268,8 @@ hr{
 }
 
 .try{
-    margin-left: 42px;
-    margin-bottom: 42px;
+    margin-left: 100px;
+    margin-bottom: 100px;
 }
 
 .den{

@@ -8,7 +8,7 @@ const cursor = new MouseFollower({
 const date = new Date();
 const year = date.getFullYear();
 const cm = document.createElement("h5");
-cm.innerHTML = `© ${year} MAM. ALL RIGHTS RESERVED`;
+cm.innerHTML = `© ${year} Hakkım helal olsun`;
 const copyRight = document.querySelector(".copyright");
 copyRight.append(cm);
 
@@ -20,11 +20,11 @@ const ns = document.createElement("h2");
 const nsJob = document.createElement("h4");
 const nsContent = document.createElement("p");
 ns.innerHTML= `<h2 class="ns-title">Mehmet Ali <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mergen</h2>
+&nbsp;&nbsp;&nbsp;Mergen</h2>
 <hr>
 `;
 nsJob.innerHTML = '<h4 class="ns-job">Software Engineer</h4>';
-nsContent.innerHTML = '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste autem nobis ex sed nesciunt velit consequatur suscipit, quibusdam eveniet rem!</p>'
+nsContent.innerHTML = '<p>Proficient in computer science and programming. Experienced in web, mobile, and blockchain development. Seeking to create innovative software solutions</p>'
 
 setTimeout(() => {
     nameSurname.append(ns);
