@@ -56,7 +56,7 @@ hr{
 
 .left-icons {
     padding-left: 3px;
-    padding-top: 138px;
+    padding-top: 88px;
 }
 
 .left-icons .fa-brands{
@@ -139,26 +139,30 @@ hr{
 }
 
 #first-page p{
-    font-size: 14px;
+    font-size: 15px;
     color: rgb(86, 86, 86);
     font-weight: 300;  
     font-family: 'Roboto Mono', monospace;
 }
 
 #first-page img {
-    margin-left: 0px;
-    width: 400px;
+    margin-left: 40px;
+    width: 355px;
     height: 400px;
     border-radius: 100%;
 }
 
+#first-page .name-surname{
+    margin-left: 30px;
+    margin-top: 32px;
+}
 
 
 
 /*   Tech parts   */
 
 #techs{
-    margin-top: 240px;
+    margin-top: 200px;
 }
 
 #techs h2{
@@ -248,13 +252,13 @@ hr{
     font-weight: 1000;
     color: #703434;
     font-size: 25px;
-    
 }
 
 .card-text {
     font-weight: 100;
     counter-reset: rgb(192, 189, 189);
     font-family: 'Mulish', sans-serif;
+    font-size: 15px;
 }
 
 .card-img-top{
@@ -268,7 +272,7 @@ hr{
 }
 
 .try{
-    margin-left: 100px;
+    margin-left: 60px;
     margin-bottom: 100px;
 }
 

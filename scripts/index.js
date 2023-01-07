@@ -19,7 +19,7 @@ const profileImg = document.getElementsByClassName("profile-img");
 const ns = document.createElement("h2");
 const nsJob = document.createElement("h4");
 const nsContent = document.createElement("p");
-ns.innerHTML= `<h2 class="ns-title">Mehmet Ali <br>
+ns.innerHTML= `<h2 class="ns-title">&nbsp;Mehmet Ali <br>
 &nbsp;&nbsp;&nbsp;Mergen</h2>
 <hr>
 `;
