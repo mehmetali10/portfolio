@@ -101,6 +101,14 @@ hr{
     font-size: 1.5rem;
 }
 
+.mail-bar{
+    font-size:18px;
+}
+.mail-bar :hover{
+    font-size: 19px;
+    color:#703434;
+}
+
 
 /*first content part*/
 

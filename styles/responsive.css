@@ -46,20 +46,20 @@
         margin-top: 30px;
         margin-left: 20%;
         width: 300px;
-        height: 300px;
+        height: 330px;
     }
 
     .ns-title{
-        margin-left: 80px;
-        margin-top: 16px;
+        margin-left: 30px;
+        margin-top: 0px;
         color: rgb(86, 86, 86);
         font-size: 50px;
         font-weight: 800;
     }
     
     .ns-title-out{
-        margin-left: 80px;
-        margin-top: 16px;
+        margin-left: 30px;
+        margin-top: 0px;
         font-size: 50px;
         font-weight: 800;
         color:#703434;
@@ -83,7 +83,7 @@
     }
 
     #first-page p{
-        font-size: 16px;
+        font-size: 15px;
         letter-spacing: 8;
         margin-left: 10px;
     }
