@@ -19,12 +19,12 @@ const profileImg = document.getElementsByClassName("profile-img");
 const ns = document.createElement("h2");
 const nsJob = document.createElement("h4");
 const nsContent = document.createElement("p");
-ns.innerHTML= `<h2 class="ns-title">&nbsp;Mehmet Ali <br>
-&nbsp;&nbsp;&nbsp;Mergen</h2>
+ns.innerHTML= `<h2 class="ns-title">Mehmet Ali <br>
+&nbsp;&nbsp;Mergen</h2>
 <hr>
 `;
 nsJob.innerHTML = '<h4 class="ns-job">Software Engineer</h4>';
-nsContent.innerHTML = '<p>Proficient in computer science and programming. Experienced in web, mobile, and blockchain development. Seeking to create innovative software solutions</p>'
+nsContent.innerHTML = '<p>Proficient in programming. Experienced in web, mobile, and blockchain development. Seeking to create innovative software solutions</p>'
 
 setTimeout(() => {
     nameSurname.append(ns);

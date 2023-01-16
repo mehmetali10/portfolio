@@ -6,7 +6,6 @@
         padding: 16px;
         width: 100%;
         height: 100%;
-        margin-top: 10px;
     }
 
     hr{
@@ -40,33 +39,35 @@
     #first-page{
         margin-top: 0px;
         margin-left: 0;
+        padding: 20px;
     }
 
     #first-page img {
-        margin-top: 30px;
-        width: 300px;
-        height: 330px;
+        margin-top: 1.3rem;
+        width: 280px;
+        height: 310px;
+        margin-left: 1rem;
     }
 
     .ns-title{
         margin-top: 0px;
         color: rgb(86, 86, 86);
-        font-size: 50px;
+        font-size: 2.2rem;
         font-weight: 800;
     }
     
     .ns-title-out{
         margin-top: 0px;
-        font-size: 50px;
         font-weight: 800;
         color:#703434;
+        font-size: 2.2rem;
     }
 
 
     .ns-job{
         margin-left: 0px;
         height: 36px;
-        font-size: 24px;
+        font-size: 1.6rem;
         font-weight: 600;
         color: rgb(86, 86, 86);
     }
@@ -74,20 +75,21 @@
     .ns-job-out{
         margin-left: 0px;
         height: 36px;
-        font-size: 24px;
+        font-size: 1.6rem;
         font-weight: 600;
         color: #703434;
     }
 
     #first-page p{
-        font-size: 15px;
+        font-size: 0.8rem;
         letter-spacing: 8;
         margin-left: 0px;
+        padding: 0.2rem;
     }
 
    hr{
         width: 85%;
-        margin-left: 10px;
+        margin-left: 0px;
     }
 
     /*tech part*/
@@ -100,41 +102,58 @@
     #techs .col-lg-10{
         width: 100%;
         height: 100%;
-        margin: 16px auto 30px;
-        border-radius: 4px;
+        margin: 1rem auto 3rem;
     }
 
     #techs img{
         margin-top: 10px;
         margin-bottom: 12px;
-        margin-left: 0px;
+        margin-left: 0;
+        margin-right: 10px;
         width: 50px;
         height: 45px;
+        filter: grayscale(10%);
     }
 
     .imgs{
+        display: inline-block;
         width: 5%;
-        padding: 0px;
-        filter: grayscale(30%);
+        padding: 6px;
+        margin-left: 30px;
+    }
+    
+    
+    .timg{
+        margin-top: 10px;
+        margin-bottom: 12px;
+        width: 50px;
+        height: 45px;
+        filter: grayscale(90%);
     }
 
 
+
     /*projects part*/
+    #projects{
+    margin-top: 120px;
+    }   
+
     .card{
         margin: auto;
         margin-bottom: 90px;
         padding: 12px;
         border-radius: 22px;
     }
+
     #projects h2{
-        margin-left: 29px;
+        margin-left: auto;
     }
     .try{
         margin-left: 0;
         margin-bottom: 0px;
     }
     .card-img-top{
-        width:22rem;
+        width:100%;
         height:12rem;
         padding: 0 2px 0;
         border-radius: 6px;
@@ -162,26 +181,29 @@
     }
     
     .footer-icons{
-        margin-left: 9%;
+        margin-left: 0;
         margin-top: 38px;
+        text-align: center;
     }
 
     .footer-icons .fa-brands{
-        padding-left: 40px;
+        padding-left: 46px;
     }
 
     #footer-1 h4{
-        margin-left: 30%;
+        margin-left: 0;
         font-weight: 600;
         line-height: 1.5;
         font-size: 1.3rem;
+        text-align: center;
     }
     
     #footer-1 h5{
-        margin-left: 32.5%;
+        margin-left: 0;
         line-height: 1.5;
         font-weight: 500;
         font-size: 1.2rem;
+        text-align: center;
     }
 
 
@@ -204,8 +226,12 @@
         text-align: center;
         height: 10px;
         width: 25%;
-        border-radius: 9px;
+        border-radius: 0px;
         margin-bottom: 0;
+    }
+
+    .footer-end{
+        padding: 0.4rem;
     }
 
     
