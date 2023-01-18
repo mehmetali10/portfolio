@@ -24,7 +24,7 @@ ns.innerHTML= `<h2 class="ns-title">Mehmet Ali <br>
 <hr>
 `;
 nsJob.innerHTML = '<h4 class="ns-job">Software Engineer</h4>';
-nsContent.innerHTML = '<p>Proficient in programming. Experienced in web, mobile, and blockchain development. Seeking to create innovative software solutions</p>'
+nsContent.innerHTML = '<p>Experienced in web, mobile, and blockchain development. Seeking to create innovative software solutions</p>'
 
 setTimeout(() => {
     nameSurname.append(ns);
@@ -100,11 +100,6 @@ for(var i=0; i< timgsNumbers; i++){
 }
 
 
-
-/**
- * <i class="fa fa-moon-o" aria-hidden="true"></i>
- * <i class="fa fa-sun-o" aria-hidden="true"></i>
- */
 
 const icon = document.querySelector(".fa-moon-o");
 icon.addEventListener("click", function(){
