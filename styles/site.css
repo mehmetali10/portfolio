@@ -102,9 +102,15 @@ hr{
 }
 
 .mail-bar{
+    font-weight: 500;
+    font-family: 'Asap', sans-serif;
+    font-family: 'Mulish', sans-serif;
     font-size:18px;
 }
 .mail-bar :hover{
+    font-weight: 500;
+    font-family: 'Asap', sans-serif;
+    font-family: 'Mulish', sans-serif;
     font-size: 19px;
     color:#703434;
 }
@@ -390,8 +396,9 @@ text-align: center;
 .col-lg-4 p{
     text-align: center;
     font-size: 13px;
-    font-weight: 500;
-    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-family: 'Asap', sans-serif;
+    font-family: 'Mulish', sans-serif;
 }
 
 .copyright h5{
