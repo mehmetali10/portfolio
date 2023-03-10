@@ -1,3 +1,6 @@
+console.log("Biraz meraklısın galiba 🤡")
+
+
 const cursor = new MouseFollower({
     container: document.body,
     speed: 1
