@@ -53,8 +53,6 @@ setTimeout(() => {
       this.classList.add("ns-job");
       this.classList.remove("ns-job-out");
     });
-
-    
 }, "100");
 
 let opacity = 0;
@@ -90,7 +88,6 @@ const interval3 = setInterval(function() {
 
 const timgsNumbers = document.getElementsByClassName("timg").length;
 
-
 for(var i=0; i< timgsNumbers; i++){
   document.querySelectorAll(".timg")[i].addEventListener("mouseover", function(){
     this.classList.remove("timg");
@@ -101,8 +98,6 @@ for(var i=0; i< timgsNumbers; i++){
     this.classList.add("timg");
   });
 }
-
-
 
 const icon = document.querySelector(".fa-moon-o");
 icon.addEventListener("click", function(){
