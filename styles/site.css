@@ -176,7 +176,7 @@ hr{
 /*   Tech parts   */
 
 #techs{
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 #techs h2{
@@ -226,7 +226,7 @@ hr{
 /*projects part*/
 
 #projects{
-    margin-top: 110px;
+    margin-top: 100px;
 }
 #projects h2{
     font-weight: 800;
@@ -241,7 +241,7 @@ hr{
 }   
 
 #projects .row{
-    margin-top: 5rem;
+    margin-top: 4rem;
 }
 
 .card{
@@ -294,7 +294,7 @@ hr{
 /*Experience part*/
 
 #experience{
-    margin-top:7rem;
+    margin-top:80px;
 }
 
 #experience .col-lg-10{
@@ -322,7 +322,7 @@ hr{
 
 /*footer-1 part*/
 #footer-1{
-    margin-top: 7rem;
+    margin-top: 80px;
 }
 
 #footer-1 h4{
