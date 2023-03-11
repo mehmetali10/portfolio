@@ -3,7 +3,7 @@ html{
 }
 
 body{
-    background-color: rgb(220, 219, 219);
+    background-color: rgb(244, 243, 243);
     font-family: 'Noto Sans', sans-serif;
     font-weight: 650;
     color: rgb(68, 67, 67);
@@ -260,15 +260,14 @@ hr{
 }   
 
 #projects .row{
-    margin-top: 4rem;
+    margin-top: 60px;
 }
 
 .card{
     width: 100%;
     margin: auto;
     padding: 12px;
-    border-radius: 44px;
-    background-color: #703434;
+    border-radius: 16px;
 }
 
 .card-title {
@@ -290,8 +289,8 @@ hr{
 }
 
 .card-img-top{
-    width:22rem;
-    height:12rem;
+    width:100%;
+    height:100%;
 }
 
 .card-img-top :hover{
@@ -301,7 +300,7 @@ hr{
 
 .try{
     margin-left: 60px;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 }
 
 .den{
@@ -331,11 +330,11 @@ hr{
 
 .experience-h4{
     height: 34px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: monospace
 }
 .experience-h4 :hover{
     height: 34px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: monospace;
     color: #703434;
 }
 
