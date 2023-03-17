@@ -174,6 +174,7 @@
 
     #experience{
         margin-top:120px;
+        font-family: monospace;
     }
 
     #experience .col-lg-10{
@@ -184,6 +185,35 @@
         border-radius: 16px;
     }
 
+    .experience-h4 {
+        font-weight: 700;
+        height: 24px;
+        font-size: 19px;
+        font-family: monospace
+    }
+
+    .experience-h4 :hover{
+        font-weight: 800;
+        height: 24px;
+        font-size: 19px;
+        font-family: monospace;
+        color: #703434;
+    }
+
+    #experience h5 {
+        height: 24px;
+        font-size: 15px;
+        font-family: monospace;
+        font-weight: 700;
+    }
+
+    #experience p{
+        height: 22px;
+        font-size: 14px;
+        font-weight: 100;
+        font-family: monospace;
+    }
+
 
     /*footer-1 part*/
     #footer-1{
@@ -191,8 +221,8 @@
     }
     
     .footer-icons{
-        margin-left: 0;
-        margin-top: 38px;
+        margin-left: -20px;
+        margin-top: 40px;
         text-align: center;
     }
 
@@ -201,7 +231,7 @@
     }
 
     #footer-1 h4{
-        margin-left: 0;
+        margin-left: 10px;
         font-weight: 600;
         line-height: 1.5;
         font-size: 1.3rem;
@@ -209,7 +239,7 @@
     }
     
     #footer-1 h5{
-        margin-left: 0;
+        margin-left: 9px;
         line-height: 1.5;
         font-weight: 500;
         font-size: 1.2rem;
