@@ -186,7 +186,7 @@
     }
 
     .experience-h4 {
-        font-weight: 700;
+        font-weight: 600;
         height: 24px;
         font-size: 19px;
         font-family: monospace
@@ -201,10 +201,10 @@
     }
 
     #experience h5 {
+        margin-top: 10px;
         height: 24px;
-        font-size: 15px;
+        font-size: 14px;
         font-family: monospace;
-        font-weight: 700;
     }
 
     #experience p{
