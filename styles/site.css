@@ -330,12 +330,20 @@ hr{
 
 .experience-h4{
     height: 34px;
-    font-family: monospace
+    font-family: monospace;
 }
 .experience-h4 :hover{
     height: 34px;
     font-family: monospace;
     color: #703434;
+}
+#experience p {
+    margin-top: 10px;
+    color: #797676;
+}
+#experience h5 {
+    color: #3a3939;
+    font-weight: 500;
 }
 
 /*footer-1 part*/
